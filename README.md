@@ -18,12 +18,12 @@ _An analysis of Blinkit's sales performance, customer satisfaction, and inventor
 - <a href="#author--contact">Author & Contact</a>
 
 ---
-<h2><a class="anchor" id="overview"></a>Overview</h2>
+<h2><a class="anchor" id="overview"></a>📂 Overview</h2>
 
 This project provides a comprehensive analysis of Blinkit's sales data. The primary goal is to evaluate sales performance across different product categories, outlet types, and locations. The analysis uses SQL for data cleaning and querying, Python for exploratory data analysis, and Power BI to create an interactive dashboard that visualizes key performance indicators (KPIs) and trends.
 
 ---
-<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+<h2><a class="anchor" id="business-problem"></a>❓Business Problem</h2>
 
 The main objective is to analyze Blinkit's sales performance, customer satisfaction, and inventory distribution to uncover actionable insights. This project aims to answer key business questions such as:
 
@@ -57,7 +57,7 @@ The dataset used for this analysis is BlinkIT Grocery Data.csv. It contains tran
 **Rating:** The customer rating for the product.
 
 ---
-<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+<h2><a class="anchor" id="tools--technologies"></a>🛠️ Tools & Technologies</h2>
 
 1. Data Cleaning & Manipulation: SQL
 
@@ -68,7 +68,7 @@ The dataset used for this analysis is BlinkIT Grocery Data.csv. It contains tran
 4. Environment: Jupyter Notebook, SQL Server / other database environment
 
 ---
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+<h2><a class="anchor" id="project-structure"></a>📖 Project Structure</h2>
 
 **BlinkIT Grocery Data.csv:** The raw dataset.
 
@@ -116,7 +116,7 @@ Sales distribution by Item Type, Fat Content, Outlet Size, and Outlet Location.
 A comprehensive breakdown of all metrics by Outlet Type.
 
 ---
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
+<h2><a class="anchor" id="how-to-run-this-project"></a>⚙️ How to Run This Project</h2>
 
 Load Data: Import the BlinkIT Grocery Data.csv into your preferred database (e.g., SQL Server, MySQL).
 
@@ -142,7 +142,7 @@ View Dashboard: Open Blinkit Dashboard.pbix in Power BI Desktop to explore the i
 *Recommendation:* Focus marketing and inventory efforts on top-selling item types like Snack Foods and Fruits & Vegetables. Develop targeted promotions for underperforming outlet types like Grocery Stores to boost their sales.
 
 ---
-<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
+<h2><a class="anchor" id="author--contact"></a>📞 Author & Contact</h2>
 
 **Harshad Mourya**<br>
 Data Analyst<br>
