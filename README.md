@@ -1,21 +1,21 @@
-📊 Blinkit Sales & Customer Satisfaction Analysis
+# 📊 Blinkit Sales & Customer Satisfaction Analysis
 
 _An analysis of Blinkit's sales performance, customer satisfaction, and inventory distribution to identify key insights and opportunities for optimization using SQL, Python, and Power BI._
 
 ---
 
-☑️ Table of Contents
-<a href="#overview">Overview</a>
-<a href="#business-problem">Business Problem</a>
-<a href="#dataset">Dataset</a>
-<a href="#tools--technologies">Tools & Technologies</a>
-<a href="#project-structure">Project Structure</a>
-<a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-<a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-<a href="#dashboard">Dashboard</a>
-<a href="#how-to-run-this-project">How to Run This Project</a>
-<a href="#key-findings--recommendations">Key Findings & Recommendations</a>
-<a href="#author--contact">Author & Contact</a>
+## ☑️ Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
+- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+- <a href="#dashboard">Dashboard</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#key-findings--recommendations">Key Findings & Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
 
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
@@ -27,13 +27,13 @@ This project provides a comprehensive analysis of Blinkit's sales data. The prim
 
 The main objective is to analyze Blinkit's sales performance, customer satisfaction, and inventory distribution to uncover actionable insights. This project aims to answer key business questions such as:
 
-What are the top-performing product categories and outlet types?
+- What are the top-performing product categories and outlet types?
 
-How do sales vary by outlet size, location, and establishment year?
+- How do sales vary by outlet size, location, and establishment year?
 
-What is the relationship between product fat content and sales?
+- What is the relationship between product fat content and sales?
 
-How can we use customer ratings to improve product offerings?
+- How can we use customer ratings to improve product offerings?
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
@@ -85,9 +85,9 @@ The dataset used for this analysis is BlinkIT Grocery Data.csv. It contains tran
 
 The primary data cleaning step involved standardizing the Item_Fat_Content column to ensure consistency. The following transformations were applied using SQL:
 
-Mapped variations like 'LF' and 'low fat' to 'Low Fat'.
+**Mapped variations like 'LF' and 'low fat' to 'Low Fat'.**
 
-Mapped 'reg' to 'Regular'.
+**Mapped 'reg' to 'Regular'.**
 
 This ensures that aggregations and filtering based on fat content are accurate and reliable.
 
