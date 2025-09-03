@@ -36,7 +36,7 @@ The main objective is to analyze Blinkit's sales performance, customer satisfact
 - How can we use customer ratings to improve product offerings?
 
 ---
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+<h2><a class="anchor" id="dataset"></a>🗂️ Dataset</h2>
 
 The dataset used for this analysis is BlinkIT Grocery Data.csv. It contains transactional data for various products sold through different Blinkit outlets. Key columns include:
 
@@ -81,7 +81,7 @@ The dataset used for this analysis is BlinkIT Grocery Data.csv. It contains tran
 **Blinkit Dashboard.pbix:** The interactive Power BI dashboard for visualizing the findings.
 
 ---
-<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
+<h2><a class="anchor" id="data-cleaning--preparation"></a>🧹 Data Cleaning & Preparation</h2>
 
 The primary data cleaning step involved standardizing the Item_Fat_Content column to ensure consistency. The following transformations were applied using SQL:
 
@@ -92,7 +92,7 @@ The primary data cleaning step involved standardizing the Item_Fat_Content colum
 This ensures that aggregations and filtering based on fat content are accurate and reliable.
 
 ---
-<h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
+<h2><a class="anchor" id="exploratory-data-analysis-eda"></a>🔍 Exploratory Data Analysis (EDA)</h2>
 
 An EDA was conducted to explore the relationships between different variables and sales performance. Key analyses included:
 
@@ -105,7 +105,7 @@ Evaluating sales performance across different Outlet_Location_Type, Outlet_Size,
 Assessing the percentage of sales contribution by Outlet_Size.
 
 ---
-<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
+<h2><a class="anchor" id="dashboard"></a>🖥️ Dashboard</h2>
 
 An interactive dashboard was created in Power BI to present the findings. The dashboard provides a high-level overview of key metrics and allows users to drill down into specific dimensions. It features visualizations for:
 
@@ -131,7 +131,7 @@ Run the Blinkit Analysis.ipynb notebook in a Jupyter environment to perform the 
 View Dashboard: Open Blinkit Dashboard.pbix in Power BI Desktop to explore the interactive visualizations.
 
 ---
-<h2><a class="anchor" id="key-findings--recommendations"></a>Key Findings & Recommendations</h2>
+<h2><a class="anchor" id="key-findings--recommendations"></a>🔑 Key Findings & Recommendations</h2>
 
 *Outlet Performance:* Supermarket Type3 outlets located in Tier 3 cities generate the highest sales, suggesting a focus on expanding or optimizing these high-performing store formats and locations.
 
